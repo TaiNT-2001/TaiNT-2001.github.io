@@ -22,7 +22,6 @@ game.structures = {
 			{tileColumn: 0, tileRow: 5, x: -1, y: 1, collidable: false},{tileColumn: 1, tileRow: 5, x: 0, y: 1, collidable: false}, {tileColumn: 2, tileRow: 5, x: 1, y: 1, collidable: false}
 	]
 }
-
 game.generateMap = function () {
 	// Generate a platform for the player
 	this.map.structures.push({
